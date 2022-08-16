@@ -1,36 +1,127 @@
 body {
-    background-image: url("https://i.imgur.com/hKOhIPt.jpeg");
-    // background-color: black;
+    // background-image: url("https://i.imgur.com/PFTxKny.png");
+    background-color: rgb(232, 227, 227);
     width: 100%;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-
+    background-position: right 35% bottom 45%;
     background-size: cover;
+
+}
+
+.con {
+    height: 80vh;
+    display: block;
+
 }
 
 .fonthead {
     font-family: Komika Axis, TH Kodchasal, sans-serif;
     font-style: oblique;
-    color: skyblue;
+    color: darkblue;
     text-align: center;
     text-align: left;
-    
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    padding-top: 230px;
+    padding-right: 45px;
+    padding-bottom: 95px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    padding-top: 150px;
+
 }
 
 .fontsubtitle {
     text-align: center;
-    text-align: left;
+    // text-align: left;
     font-family: Komika Axis, TH Kodchasal, sans-serif;
     font-style: italic;
-    color: skyblue;
+    color: black;
+    margin-top: 25px;
+    margin-right: 120px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    padding-bottom: 50px;
+    // -webkit-text-stroke: 2px;
+    // -webkit-text-stroke-color: black;
+
+
 
 }
 
 .fontsize {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .fontsupersize {
-    font-size: 50px;
+    font-size: 30px;
+}
+
+.img {
+    border-radius: 50%;
+    width: 425px;
+    height: 430px;
+    size: 25px;
+    margin-top: 130px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: 120px;
+
+}
+
+.imgbg {
+    width: 24cm;
+    height: 19.50cm;
+    padding-right: 20vh;
+}
+
+.anotherbackground {
+    background-image: url("https://i.imgur.com/aUgiVkY.png");
+
+
+}
+
+.bgset-998 {
+    min-height: 998px;
+    position: relative;
+
+    .anotherbackground {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-left: 250px;
+        z-index: 5;
+    }
+
+    .img-profile {
+        position: absolute;
+        z-index: 10;
+    }
+
+    .img-bg {
+        position: absolute;
+        z-index: 7;
+    }
+}
+
+.button {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    background-image: none;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 15px;
+    padding-right: 61px;
+    padding-bottom: 17px;
+    padding-left: 60px;
 }
