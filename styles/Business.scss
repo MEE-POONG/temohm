@@ -23,9 +23,36 @@
     text-align: center;
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: black;
-    position: absolute;
-    margin-top: 290px;
-    margin-left: -150px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: -100px;
     margin-right: 500px;
     font-size: 100px;
+    padding: 25px;
+}
+.fontsub{
+    font-family: Komika Axis, TH Kodchasal, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    position: relative;
+    // margin-top: 290px;
+    margin-left: -100px;
+    // margin-right: 500px;
+    font-size: 45px;
+    padding: 25px;
+}
+.img{
+    position: relative;
+    min-width: auto;
+    min-height: auto;
+    width: 200px;
+    height: 200px;
+    padding: 3px;;
+    margin: auto;
+    left: 500px;
+    top: 210px;
+    color: rgb(255, 251, 251);
+
 }
