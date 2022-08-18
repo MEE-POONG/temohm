@@ -1,4 +1,4 @@
-import { Button, OverlayTrigger, Tooltip, Row, Col, Image, Container, Table, box } from 'react-bootstrap';
+import { Button, OverlayTrigger, Tooltip, Row, Col, Image, Container, Table, box, Alert } from 'react-bootstrap';
 import { GrDiamond } from 'react-icons/gr';
 
 
@@ -85,13 +85,37 @@ function Index() {
                     <h1 className='fontheader-get'>Simple prices, flexible    options & nothing hidden</h1>
                     <Row>
                         <Col>
-                            <h1 className='fontsub-get'>free</h1>
+                            <Alert className='fontsub-get bg-text'>free</Alert>
+                            <Alert className='bg-text2'>
+                            <p className='fontsubunder-get'>$0</p>
+                            <li className='fontbody-get'>15 Users</li>
+                            <li className='fontbody-get'>Feature 2</li>
+                            <li className='fontbody-get'>Feature 3</li>
+                            <li className='fontbody-get'>Feature 4</li>
+                            <Button variant="outline-warning" className='button-get fontsub-get-button'>Get plan</Button>
+                            </Alert>
                         </Col>
                         <Col>
-                            <h1 className='fontsub-get'>free</h1>
+                            <Alert className='fontsub-get bg-text'>Individual</Alert>
+                            <Alert className='bg-text2'>
+                            <p className='fontsubunder-get'>$29</p>
+                            <li className='fontbody-get'>15 Users</li>
+                            <li className='fontbody-get'>Feature 2</li>
+                            <li className='fontbody-get'>Feature 3</li>
+                            <li className='fontbody-get'>Feature 4</li>
+                            <Button variant="outline-warning" className='button-get fontsub-get-button'>Get plan</Button>
+                            </Alert>
                         </Col>
                         <Col>
-                            <h1 className='fontsub-get'>free</h1>
+                            <Alert className='fontsub-get bg-text'>Business</Alert>
+                            <Alert className='bg-text2'>
+                            <p className='fontsubunder-get'>$59</p>
+                            <li className='fontbody-get'>15 Users</li>
+                            <li className='fontbody-get'>Feature 2</li>
+                            <li className='fontbody-get'>Feature 3</li>
+                            <li className='fontbody-get'>Feature 4</li>
+                            <Button variant="outline-warning" className='button-get fontsub-get-button'>Get plan</Button>
+                            </Alert>
                         </Col>
 
 

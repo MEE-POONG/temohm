@@ -1,4 +1,4 @@
-.fontheader-get{
+.fontheader-get {
     font-family: Komika Axis, TH Kodchasal, sans-serif;
     color: rgb(218, 246, 8);
     text-align: center;
@@ -12,7 +12,8 @@
     font-size: 30px;
     padding: 25px;
 }
-.fontsub-get{
+
+.fontsub-get {
     font-family: Komika Axis, TH Kodchasal, sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -22,10 +23,80 @@
     // margin-top: 290px;
     margin-left: -100px;
     // margin-right: 500px;
-    font-size: 45px;
+    font-size: 40px;
     padding: 25px;
 }
-.bg-text{
-    background-color: gold;
 
+.fontsubunder-get {
+    font-family: Komika Axis, TH Kodchasal, sans-serif;
+    color: gold;
+    text-align: center;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    position: relative;
+    // margin-top: 290px;
+    margin-left: -100px;
+    // margin-right: 500px;
+    font-size: 70px;
+    padding: 25px;
+    right: -42px;
+    bottom: 65px;
+}
+
+.bg-text {
+    background-color: gold;
+    padding: 25px;
+    margin-bottom: -4px;
+    margin-left: 30px;
+}
+.bg-text2{
+    background-color: rgb(67, 67, 65);
+    padding: 60px;
+    margin-left: 30px;
+    margin-bottom: 35px;
+}
+
+.button-get {
+    background-color: gold;
+    border: none;
+    color: white;
+    // padding: 14px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 17px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.fontsub-get-button {
+    font-family: Komika Axis, TH Kodchasal, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    // -webkit-text-stroke: 2px;
+    // -webkit-text-stroke-color: black;
+    position: relative;
+    // margin-top: 290px;
+    // margin-left: -100px;
+    // margin-right: 500px;
+    // font-size: 40px;
+    left: 20px;
+    bottom: -60px;
+}
+.fontbody-get{
+    font-family: Komika Axis, TH Kodchasal, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    // -webkit-text-stroke: 2px;
+    // -webkit-text-stroke-color: black;
+    position: relative;
+    // margin-top: 290px;
+    margin-left: -100px;
+    // margin-right: 500px;
+    font-size: 20px;
+    padding: 0;
 }
