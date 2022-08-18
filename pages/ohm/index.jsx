@@ -134,14 +134,18 @@ function Index() {
                     <h1 className=''></h1>
                     <Row>
                         <Col>
-                            
-                        </Col>
-                        <Col>
-                            <p>i love hee</p>
 
                         </Col>
                         <Col>
-                           
+                            <Image src="https://i.imgur.com/YMBJbip.png" className='img-abput' />
+                            <h1 className='font-head-about'>About Business</h1>
+                            <h5 className='font-sub-about'>EFFECTIVE SOLUTIONS</h5>
+                            <p className='font-sub-about'>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                                Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+
+                        </Col>
+                        <Col>
+
                         </Col>
 
 
@@ -159,14 +163,14 @@ function Index() {
                     <h1 className=''></h1>
                     <Row>
                         <Col>
-                            
-                        </Col>
-                        <Col>
-                            
 
                         </Col>
                         <Col>
-                           
+
+
+                        </Col>
+                        <Col>
+
                         </Col>
 
 
