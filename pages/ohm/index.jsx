@@ -8,7 +8,7 @@ function Index() {
         <Container className='my-5 '>
             <section className='bgset-998'>
 
-        
+
 
                 <div className='anotherbackground'>
 
@@ -17,9 +17,9 @@ function Index() {
 
                         </Col>
                         <Col>
-                            <h1 className='fonthead fontsupersize' >Making Your World a Happier Place</h1>
+                            <h1 className='fonthead fontsupersize' >Making You Happier Wiht Money You Maked</h1>
                             <p className='fontsubtitle '>
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                your business we will help build it to make maximum income low price and legit enjoy spending your money and feel rich beyond your imagination.
                             </p>
                             <p>
                                 <Button variant="outline-primary" className='button'>Read more</Button>
@@ -33,7 +33,7 @@ function Index() {
                 </div>
                 <div className='img-profile'>
 
-                    <Image src="https://i.imgur.com/PEgflZ4.jpeg" className='imge' />
+                    <Image src="https://i.imgur.com/jXXK5PJ.jpeg" className='imge' />
 
                 </div>
                 <div className='img-bg'>
@@ -43,7 +43,7 @@ function Index() {
             </section>
             {/* index */}
             {/* Business */}
-            <section className='bg'>
+            <section className='bgset-998 bg'>
 
 
 
@@ -54,7 +54,7 @@ function Index() {
 
                         </Col>
                         <Col>
-                            <Image src="https://i.imgur.com/PHCR2vy.png" className="img" />
+                            <Image src="https://i.imgur.com/gScbNnc.png" className="img" />
                             <h1 className='fontheader'>business</h1>
 
                             <p className='fontsub'>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
@@ -76,8 +76,9 @@ function Index() {
 
                 </div>
             </section>
-            {/* Business */}
-            <section className='bgset-998'>
+            {/* /Business */}
+            {/* Getplan */}
+            <section className='bgset-998 bg-gp'>
 
 
 
@@ -86,36 +87,36 @@ function Index() {
                     <Row>
                         <Col>
                             <Alert className='fontsub-get bg-text'>free</Alert>
-                            <Alert className='bg-text2'>
+                            <box className='box-opacity1'></box>
                             <p className='fontsubunder-get'>$0</p>
                             <li className='fontbody-get'>15 Users</li>
                             <li className='fontbody-get'>Feature 2</li>
                             <li className='fontbody-get'>Feature 3</li>
                             <li className='fontbody-get'>Feature 4</li>
                             <Button variant="outline-warning" className='button-get fontsub-get-button'>Get plan</Button>
-                            </Alert>
+
                         </Col>
                         <Col>
                             <Alert className='fontsub-get bg-text'>Individual</Alert>
-                            <Alert className='bg-text2'>
+                            <box className='box-opacity2'></box>
                             <p className='fontsubunder-get'>$29</p>
                             <li className='fontbody-get'>15 Users</li>
                             <li className='fontbody-get'>Feature 2</li>
                             <li className='fontbody-get'>Feature 3</li>
                             <li className='fontbody-get'>Feature 4</li>
                             <Button variant="outline-warning" className='button-get fontsub-get-button'>Get plan</Button>
-                            </Alert>
+
                         </Col>
                         <Col>
                             <Alert className='fontsub-get bg-text'>Business</Alert>
-                            <Alert className='bg-text2'>
+                            <box className='box-opacity3'></box>
                             <p className='fontsubunder-get'>$59</p>
                             <li className='fontbody-get'>15 Users</li>
                             <li className='fontbody-get'>Feature 2</li>
                             <li className='fontbody-get'>Feature 3</li>
                             <li className='fontbody-get'>Feature 4</li>
                             <Button variant="outline-warning" className='button-get fontsub-get-button'>Get plan</Button>
-                            </Alert>
+
                         </Col>
 
 
@@ -123,6 +124,57 @@ function Index() {
                     </Row>
                 </div>
             </section>
+            {/* /Getplan */}
+            {/* Aboutbusiness */}
+            <section className='bgset-998'>
+
+
+
+                <div className=''>
+                    <h1 className=''></h1>
+                    <Row>
+                        <Col>
+                            
+                        </Col>
+                        <Col>
+                            <p>i love hee</p>
+
+                        </Col>
+                        <Col>
+                           
+                        </Col>
+
+
+
+                    </Row>
+                </div>
+            </section>
+            {/* /Aboutbusiness */}
+            {/* CONTACT US */}
+            <section className='bgset-998'>
+
+
+
+                <div className=''>
+                    <h1 className=''></h1>
+                    <Row>
+                        <Col>
+                            
+                        </Col>
+                        <Col>
+                            
+
+                        </Col>
+                        <Col>
+                           
+                        </Col>
+
+
+
+                    </Row>
+                </div>
+            </section>
+            {/* /CONTACT US */}
         </Container>
 
     );

@@ -1,12 +1,14 @@
 body {
-    background-color: rgb(232, 227, 227);
+    background-color: rgba(255, 255, 255, 0.929);
+    // background-image: url(https://i.imgur.com/QKVBVCl.jpeg);
     width: 100%;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-position: right 35% bottom 45%;
     background-size: cover;
-
+    background-attachment: fixed;
+   
 }
 
 .con {
@@ -18,7 +20,7 @@ body {
 .fonthead {
     font-family: Komika Axis, TH Kodchasal, sans-serif;
     font-style: oblique;
-    color: rgb(149, 149, 246);
+    color: gold;
     text-align: center;
     text-align: left;
     -webkit-text-stroke: 2px;
@@ -37,14 +39,14 @@ body {
     // text-align: left;
     font-family: Komika Axis, TH Kodchasal, sans-serif;
     
-    color: black;
+    color: white;
     margin-top: 25px;
     margin-right: 120px;
     margin-bottom: 25px;
     margin-left: 10px;
     padding-bottom: 50px;
-    // -webkit-text-stroke: 2px;
-    // -webkit-text-stroke-color: black;
+    -webkit-text-stroke: 0.9px;
+    -webkit-text-stroke-color: black;
 
 
 
@@ -60,8 +62,8 @@ body {
 
 .imge {
     border-radius: 50%;
-    width: 425px;
-    height: 430px;
+    width: 400px;
+    height: 400px;
     size: 25px;
     margin-top: 130px;
     margin-right: auto;
@@ -71,14 +73,15 @@ body {
 }
 
 .imgbg {
-    width: 24cm;
-    height: 19.50cm;
-    padding-right: 20vh;
+    width: 22cm;
+    height: 18.50cm;
+    padding-right: 100px;
+    opacity: 0.9;
 }
 
 .anotherbackground {
-    background-image: url("https://i.imgur.com/aUgiVkY.png");
-
+    background-image: url("https://i.imgur.com/B59wV1l.png");
+    background-size: cover;
 
 }
 
