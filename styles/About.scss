@@ -1,24 +1,37 @@
 .img-abput {
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     size: 18px;
     margin-top: 120px;
     margin-right: auto;
     margin-bottom: 0px;
-    margin-left:  35px;
+    margin-left: 35px;
 }
-.font-head-about{
+
+.font-head-about {
     font-family: Old Standard TT, TH Kodchasal, sans-serif;
     text-align: center;
     color: white;
     -webkit-text-stroke: 0.5px;
-    -webkit-text-stroke-color: black
+    -webkit-text-stroke-color: black;
+    font-size: 54px;
 }
-.font-sub-about{
+
+.font-sub-about {
     font-family: Old Standard TT, TH Kodchasal, sans-serif;
     text-align: center;
     -webkit-text-stroke: 0.1px;
     // -webkit-text-stroke-color: white;
     font-size: 24px;
+}
+
+.footer {
+    // position: fixed;
+    padding-bottom: 40px;
+    text-align: center;
+
+    background-color: rgb(61, 60, 60);
+    color: white;
+    text-align: center;
 }

@@ -10,9 +10,11 @@ import Footer from "../components/Footers/Footer.js";
 export default function IndexPage({ children }) {
   return (
     <>
-      <IndexNavbar />
-      {children}
-      <Footer />
+      <div>
+        <IndexNavbar />
+        {children}
+        <Footer />
+      </div>
     </>
   );
 }
